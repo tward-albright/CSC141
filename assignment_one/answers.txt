@@ -1,0 +1,10 @@
+1-2
+    There are a few types of typos to make: mispelling print, or forgetting a parenthesis or quotation mark.
+    
+    I can understand the error messages generated, and a typo you could make that wouldn't change anything
+    is anything inside the quotes.
+
+1-3
+    If I had infinite skills, I'd try to work on a game. Technically that requires a lot of skills outside of
+    programming, but programming is a lot of the backbone. I have a few game ideas already but it'd take a while
+    to write them all out, so I'll spare you.
