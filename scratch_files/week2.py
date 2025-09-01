@@ -1,11 +1,18 @@
 # Taylan Ward
-# Checks the user's name against mine.
+# Number guessing game
 
-# Get the name of the user.
-print("Please enter your name: ", end="")
-name = input()
+from random import randint
 
-if name == "Taylan":
-    print(f"Hello, {name}!")
-else:
-    print(f"Hey, you're not me!")
+secret_number = randint(1, 100)
+guess = 0
+
+while guess != secret_number:
+    print("Guess a number: ", end="")
+    guess = int(input())
+
+    if guess > secret_number:
+        print("Over!")
+    else:
+        print("Under!")
+
+print(f"You did it! The number was {secret_number}!")
