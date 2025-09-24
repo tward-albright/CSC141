@@ -1,4 +1,6 @@
+# Taylan Ward
 # 5-1 and 5-2
+# pyright: basic
 dog_breed = "labrador"
 print("Is dog_breed == 'labrador'? True")
 print(dog_breed == "labrador")
