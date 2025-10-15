@@ -1,5 +1,5 @@
 # Simulating the pity mechanics in gacha games
-
+# pyright: strict, reportUnknownMemberType=false
 from random import random
 from matplotlib import pyplot as plt
 import time
@@ -40,7 +40,6 @@ trials = [sim() for _ in range(1000000)]
 end = time.time()
 print(f"runtime: {end - start}s")
 fig, ax = plt.subplots()
-ax.set_xlabel("Rolls used to get character")
-
-ax.hist(trials, bins=75)
+_ = ax.set_xlabel("Rolls used to get character")
+_ = ax.hist(trials, bins=75)
 plt.show()
